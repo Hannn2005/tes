@@ -3,7 +3,7 @@ uses crt,math;
 label 
 1;
 
-type 
+type //ini record nasabah
     rec_nasabah = record
     nama : string;
     umur : integer;
