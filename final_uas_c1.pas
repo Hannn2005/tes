@@ -3,14 +3,14 @@ uses crt,math;
 label 
 1;
 
-type //ini record nasabah
+type    //ini record nasabah
     rec_nasabah = record
     nama : string;
     umur : integer;
     ttl  : string;
     alamat: string;
     pekerjaan : string;
-end;
+end;        //ini record kpr
     rec_kpr = record
     rumah : double;
     muka : longint;
@@ -23,7 +23,7 @@ end;
     dp : integer;
     tenor : real;
     bunga : real;
-end;
+end;    
     rec_umum = record
     pinjam : extended;
     lama : real ;
